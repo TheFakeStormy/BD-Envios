@@ -1,7 +1,7 @@
 public class PaqueteFragil implements TipoPaquete{
     @Override
     public double CalcularCosto(double Peso) {
-        return 0;
+        return (Peso * 15.0)+20.0;
     }
 
     @Override

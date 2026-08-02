@@ -1,7 +1,7 @@
 public class PaqueteInternacional implements TipoPaquete{
     @Override
     public double CalcularCosto(double Peso) {
-        return 0;
+        return (Peso * 25)+50.0;
     }
 
     @Override

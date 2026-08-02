@@ -1,7 +1,7 @@
 public class PaqueteExpress implements TipoPaquete{
     @Override
     public double CalcularCosto(double Peso) {
-        return 0;
+        return (Peso * 20)+30;
     }
 
     @Override
